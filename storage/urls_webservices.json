@@ -368,15 +368,6 @@
         "msgns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws",
         "soapns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws"
     },
-    "3133758": {
-        "municipio": "Itau de Minas",
-        "uf": "MG",
-        "homologacao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-test-ws\/nfseWS",
-        "producao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-ws\/nfseWS",
-        "version": "2.02",
-        "msgns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws",
-        "soapns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws"
-    },
     "3137205": {
         "municipio": "Lagoa da Prata",
         "uf": "MG",
@@ -1180,15 +1171,6 @@
     },
     "4126603": {
         "municipio": "Siqueira Campos",
-        "uf": "PR",
-        "homologacao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-test-ws\/nfseWS",
-        "producao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-ws\/nfseWS",
-        "version": "2.02",
-        "msgns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws",
-        "soapns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws"
-    },
-    "4127106": {
-        "municipio": "Telemaco Borba",
         "uf": "PR",
         "homologacao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-test-ws\/nfseWS",
         "producao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-ws\/nfseWS",
@@ -2060,15 +2042,6 @@
         "msgns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws",
         "soapns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws"
     },
-    "4206900": {
-        "municipio": "Ibirama",
-        "uf": "SC",
-        "homologacao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-test-ws\/nfseWS",
-        "producao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-ws\/nfseWS",
-        "version": "2.02",
-        "msgns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws",
-        "soapns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws"
-    },
     "4207205": {
         "municipio": "Imarui",
         "uf": "SC",
@@ -2420,15 +2393,6 @@
         "msgns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws",
         "soapns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws"
     },
-    "4211801": {
-        "municipio": "Ouro",
-        "uf": "SC",
-        "homologacao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-test-ws\/nfseWS",
-        "producao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-ws\/nfseWS",
-        "version": "2.02",
-        "msgns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws",
-        "soapns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws"
-    },
     "4211876": {
         "municipio": "Paial",
         "uf": "SC",
@@ -2593,15 +2557,6 @@
     },
     "4214300": {
         "municipio": "Rancho Queimado",
-        "uf": "SC",
-        "homologacao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-test-ws\/nfseWS",
-        "producao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-ws\/nfseWS",
-        "version": "2.02",
-        "msgns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws",
-        "soapns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws"
-    },
-    "4214805": {
-        "municipio": "Rio do Sul",
         "uf": "SC",
         "homologacao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-test-ws\/nfseWS",
         "producao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-ws\/nfseWS",
@@ -2852,15 +2807,6 @@
         "msgns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws",
         "soapns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws"
     },
-    "4217808": {
-        "municipio": "Taio",
-        "uf": "SC",
-        "homologacao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-test-ws\/nfseWS",
-        "producao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-ws\/nfseWS",
-        "version": "2.02",
-        "msgns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws",
-        "soapns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws"
-    },
     "4217907": {
         "municipio": "Tangara",
         "uf": "SC",
@@ -3016,15 +2962,6 @@
     },
     "3502002": {
         "municipio": "Analandia",
-        "uf": "SP",
-        "homologacao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-test-ws\/nfseWS",
-        "producao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-ws\/nfseWS",
-        "version": "2.02",
-        "msgns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws",
-        "soapns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws"
-    },
-    "3510104": {
-        "municipio": "Candido Rodrigues",
         "uf": "SP",
         "homologacao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-test-ws\/nfseWS",
         "producao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-ws\/nfseWS",
