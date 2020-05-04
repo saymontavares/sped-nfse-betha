@@ -791,15 +791,6 @@
         "msgns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws",
         "soapns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws"
     },
-    "4101002": {
-        "municipio": "Ampere",
-        "uf": "PR",
-        "homologacao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-test-ws\/nfseWS",
-        "producao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-ws\/nfseWS",
-        "version": "2.02",
-        "msgns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws",
-        "soapns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws"
-    },
     "4101903": {
         "municipio": "Assai",
         "uf": "PR",
@@ -1630,15 +1621,6 @@
     },
     "4200705": {
         "municipio": "Alfredo Wagner",
-        "uf": "SC",
-        "homologacao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-test-ws\/nfseWS",
-        "producao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-ws\/nfseWS",
-        "version": "2.02",
-        "msgns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws",
-        "soapns": "http:\/\/www.betha.com.br\/e-nota-contribuinte-ws"
-    },
-    "4200754": {
-        "municipio": "Alto Bela Vista",
         "uf": "SC",
         "homologacao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-test-ws\/nfseWS",
         "producao": "http:\/\/e-gov.betha.com.br\/e-nota-contribuinte-ws\/nfseWS",
