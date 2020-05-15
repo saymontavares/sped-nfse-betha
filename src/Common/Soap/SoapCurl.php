@@ -117,8 +117,6 @@ class SoapCurl extends SoapBase implements SoapInterface
                 $httpcode
             );
         }
-        //remover apos os testes
-        //file_put_contents("/var/www/sped/sped-nfse-betha/local/fixtures/res_{$action}_{$ts}.xml", $this->responseBody);
         return $this->responseBody;
     }
     
