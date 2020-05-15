@@ -89,6 +89,7 @@ class SoapCurl extends SoapBase implements SoapInterface
             }
             $response = curl_exec($oCurl);
             $this->soaperror = curl_error($oCurl);
+            $soaperror_code = curl_errno($oCurl);
             $ainfo = curl_getinfo($oCurl);
             if (is_array($ainfo)) {
                 $this->soapinfo = $ainfo;
@@ -107,18 +108,15 @@ class SoapCurl extends SoapBase implements SoapInterface
             throw SoapException::unableToLoadCurl($e->getMessage());
         }
         if ($this->soaperror != '') {
-            throw SoapException::soapFault($this->soaperror . " [$url]");
+            throw SoapException::soapFault($this->soaperror . " [$url]", $soaperror_code);
         }
         if ($httpcode != 200) {
             throw SoapException::soapFault(
                 " [$url] HTTP Error code: $httpcode - "
-                . $this->getFaultString($this->responseBody)
+                . $this->getFaultString($this->responseBody),
+                $httpcode
             );
         }
-        
-        //remover apos os testes
-        file_put_contents("/var/www/sped/sped-nfse-betha/local/fixtures/res_{$action}_{$ts}.xml", $this->responseBody);
-        
         return $this->responseBody;
     }
     

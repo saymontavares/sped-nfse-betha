@@ -114,7 +114,7 @@ $jsonSchema = '{
                 "codigopais": {
                     "required": false,
                     "type": ["integer","null"],
-                    "pattern": "^[0-9]{7}$"
+                    "pattern": "^[0-9]{4}$"
                 },
                 "exigibilidadeiss": {
                     "required": true,
