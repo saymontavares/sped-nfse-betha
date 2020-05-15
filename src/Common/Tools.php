@@ -204,16 +204,16 @@ class Tools
         $dom->preserveWhiteSpace = false;
         $dom->formatOutput = false;
         $dom->loadXML($env);
-        
+
         $node = $dom->getElementsByTagName('nfseCabecMsg')->item(0);
         $cdata = $dom->createCDATASection($cabecalho);
         $node->appendChild($cdata);
-        
+
         $node = $dom->getElementsByTagName('nfseDadosMsg')->item(0);
         $cdata = $dom->createCDATASection($message);
         $node->appendChild($cdata);
         return $dom->saveXML($dom->documentElement);
-         * 
+         *
          */
         return $env;
     }
