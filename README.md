@@ -414,18 +414,18 @@ Este é um projeto totalmente *OpenSource*, para usa-lo e modifica-lo você não
 
 *Durante a fase de desenvolvimento e testes este pacote deve ser instalado com:*
 ```bash
-composer require nfephp-org/sped-nfse-betha:dev-master
+composer require saymontavares/sped-nfse-betha:dev-master
 ```
 
 *Ou ainda,*
 ```bash
-composer require nfephp-org/sped-nfse-betha:dev-master --prefer-dist
+composer require saymontavares/sped-nfse-betha:dev-master --prefer-dist
 ```
 
 *Ou ainda alterando o composer.json do seu aplicativo inserindo:*
 ```json
 "require": {
-    "nfephp-org/sped-nfse-betha" : "dev-master"
+    "saymontavares/sped-nfse-betha" : "dev-master"
 }
 ```
 
@@ -437,12 +437,12 @@ composer require nfephp-org/sped-nfse-betha:dev-master --prefer-dist
 
 *Após os stable realeases estarem disponíveis, este pacote poderá ser instalado com:*
 ```bash
-composer require nfephp-org/sped-nfse-betha
+composer require saymontavares/sped-nfse-betha
 ```
 Ou ainda alterando o composer.json do seu aplicativo inserindo:
 ```json
 "require": {
-    "nfephp-org/sped-sped-nfse-betha" : "^1.0"
+    "saymontavares/sped-nfse-betha" : "^1.0"
 }
 ```
 
