@@ -56,7 +56,7 @@ class SoapCurl extends SoapBase implements SoapInterface
         
         //remover apos os testes
         $ts = time();
-        file_put_contents("/var/www/sped/sped-nfse-betha/local/fixtures/req_{$action}_{$ts}.xml", $envelope);
+        // file_put_contents("/var/www/sped/sped-nfse-betha/local/fixtures/req_{$action}_{$ts}.xml", $envelope);
         
         try {
             $this->saveTemporarilyKeyFiles();
