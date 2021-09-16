@@ -1,9 +1,9 @@
 {
-    "name": "nfephp-org/sped-nfse-betha",
+    "name": "saymontavares/sped-nfse-betha",
     "type": "library",
     "description": "API para geração e comunicação de RPS e NFSe no padão BETHA.",
     "keywords": ["nfe","nfse","sped","nfephp"],
-    "homepage": "https://github.com/nfephp-org/sped-nfse-betha",
+    "homepage": "https://github.com/saymontavares/sped-nfse-betha",
     "license": ["LGPL-3.0-or-later", "GPL-3.0-or-later", "MIT"],
     "authors": [
         {
