@@ -32,7 +32,7 @@ class SoapCurl extends SoapBase implements SoapInterface
     {
         parent::__construct($certificate, $logger);
     }
-    
+
     /**
      * Send soap message to url
      * @param string $operation
@@ -53,11 +53,11 @@ class SoapCurl extends SoapBase implements SoapInterface
         $response = '';
         $this->requestHead = implode("\n", $parameters);
         $this->requestBody = $envelope;
-        
+
         //remover apos os testes
-        $ts = time();
+        // $ts = time();
         // file_put_contents("/var/www/sped/sped-nfse-betha/local/fixtures/req_{$action}_{$ts}.xml", $envelope);
-        
+
         try {
             $this->saveTemporarilyKeyFiles();
             $oCurl = curl_init();
@@ -117,9 +117,12 @@ class SoapCurl extends SoapBase implements SoapInterface
                 $httpcode
             );
         }
+
+        // file_put_contents(__DIR__."/../../../local/fixtures/res_{$action}_{$ts}.xml", $this->responseBody);
+
         return $this->responseBody;
     }
-    
+
     /**
      * Recover WSDL form given URL
      * @param string $url
@@ -155,7 +158,7 @@ class SoapCurl extends SoapBase implements SoapInterface
         }
         return $response;
     }
-    
+
     /**
      * Set proxy into cURL parameters
      * @param resource $oCurl
@@ -172,7 +175,7 @@ class SoapCurl extends SoapBase implements SoapInterface
             }
         }
     }
-    
+
     /**
      * Extract faultstring form response if exists
      * @param string $body
